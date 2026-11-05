@@ -13,4 +13,4 @@ jobs:
           java-version: '17'
           distribution: 'adopt'
       - name: Run Gradle test task
-        run: ./gradlew clean test # in case of a Maven project, the command is mvn clean test
+        run: ./gradlew clean test # but in case of a Maven project, the command is mvn clean test
